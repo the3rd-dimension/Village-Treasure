@@ -1,5 +1,9 @@
 # The Village Treasure
 
+Village Treasure is a simple 2d game made with pygame in python. This project was created for L3DC10 Roll#1001591 (Tamzid Idrish) to be submitted to NCC.
+
+## Description
+
 A choice-driven, single-player adventure made with Python and Pygame. Explore Willowmere, collect and use items, speak with its residents, and uncover Alden Willow's treasure.
 
 ## Run
@@ -22,3 +26,8 @@ python main.py
 ## Optional assets
 
 Assets are loaded from `content/assets/` when present. Missing images, fonts, music, and sound effects use built-in placeholders or remain silent. Expected sprite paths and location backgrounds are defined by the JSON files in `content/data/` and `content/maps/world_map.json`.
+
+## Executable
+
+You can find the executable in `dist/`.
+
