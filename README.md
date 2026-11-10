@@ -19,7 +19,6 @@ python main.py
 
 - Enter a player name, then press **Enter** or click **Begin Journey**.
 - Click an available action, or use **Up/Down** and **Enter** to choose one.
-- Travel with **W = North**, **S = South**, **A = West**, and **D = East**, or click a lit travel key.
 - Click an inventory slot or press **1, 2, 3, or 4** to select and inspect an item; press **E** to use it where appropriate.
 - Press **Tab** to cycle through inventory items. Click or press **Enter/Space** to continue dialogue.
 
