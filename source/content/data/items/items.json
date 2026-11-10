@@ -1,0 +1,61 @@
+{
+  "old_rope": {
+    "name": "Old Rope",
+    "description": "A sturdy coil of rope. It could reach something deep in the well.",
+    "icon": "sprites/items/icon_old_rope.png",
+    "color": [174, 139, 91],
+    "usage_requirements": {
+      "location": "L03"
+    }
+  },
+  "rusty_key": {
+    "name": "Rusty Key",
+    "description": "An old iron key, likely to fit a forgotten lock.",
+    "icon": "sprites/items/icon_rusty_key.png",
+    "color": [162, 150, 112],
+    "usage_requirements": {
+      "location": "L10",
+      "mill_unlocked": false
+    }
+  },
+  "old_coin": {
+    "name": "Old Coin",
+    "description": "A worn village coin. Elias may know what it is worth.",
+    "icon": "sprites/items/icon_old_coin.png",
+    "color": [222, 181, 78],
+    "usage_requirements": {
+      "location": "L06",
+      "coin_traded": false
+    }
+  },
+  "lantern": {
+    "name": "Lantern",
+    "description": "A dependable lantern that reveals details hidden in shadow.",
+    "icon": "sprites/items/icon_lantern.png",
+    "color": [238, 170, 72],
+    "usage_requirements": {
+      "location": "L07",
+      "medallion_found": false
+    }
+  },
+  "sun_medallion": {
+    "name": "Sun Medallion",
+    "description": "A golden sun symbol that matches the treasure gate.",
+    "icon": "sprites/items/icon_sun_medallion.png",
+    "color": [245, 204, 84],
+    "usage_requirements": {
+      "location": "L12",
+      "gate_open": false
+    }
+  },
+  "old_photograph": {
+    "name": "Old Photograph",
+    "description": "A faded photograph of a young man beside the village founder.",
+    "icon": "sprites/items/icon_old_photograph.png",
+    "color": [172, 190, 185],
+    "usage_requirements": {
+      "location": "L05",
+      "photograph_shown": false
+    }
+  }
+}

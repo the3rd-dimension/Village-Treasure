@@ -1,0 +1,65 @@
+{
+  "intro": [
+    "Welcome to Willowmere, {player}. The old treasure legend begins at the village square."
+  ],
+  "mira": {
+    "first_meeting": [
+      "You came looking for Alden Willow's treasure? Most people think it is only a story.",
+      "Alden left clues around Willowmere. An old rope in the abandoned house might help you reach the well's bottom."
+    ],
+    "met": [
+      "The old stories point toward the well, the mill, and the church. Take your time exploring."
+    ],
+    "photograph": [
+      "This is Alden, beside my great-grandmother. He believed a village was made by its people, not its gold.",
+      "His journal may explain why he left the treasure here."
+    ],
+    "after_photograph": [
+      "I still think of that photograph whenever I pass the square. Alden cared deeply for Willowmere."
+    ]
+  },
+  "elias": {
+    "greeting": [
+      "Welcome to my stall. I trade useful things for something with a bit of history."
+    ],
+    "coin": [
+      "An old Willowmere coin! I'll trade you a lantern for it."
+    ],
+    "traded": [
+      "May the lantern light your way. Some things only show themselves in the right light."
+    ]
+  },
+  "thomas": {
+    "greeting": [
+      "The mill's main room is open, but the storage door is locked.",
+      "I heard the old key was dropped near the well. A length of rope might bring it up."
+    ],
+    "key_found": [
+      "That looks like the mill key. The storage room is just behind me."
+    ],
+    "storage_open": [
+      "You've opened the storage room. Alden's old things may still be inside."
+    ]
+  },
+  "bram": {
+    "locked": [
+      "I guard the treasure chamber. The sun-marked gate will open only for the Sun Medallion."
+    ],
+    "open": [
+      "That is Alden's mark. The way is open. Go carefully."
+    ]
+  },
+  "locations": {
+    "noticeboard": [
+      "The weathered notice mentions Alden Willow and a trail of clues left across the village."
+    ],
+    "shrine": [
+      "\"Remember those who came before; their stories are the roots of every home.\""
+    ],
+    "ending": [
+      "The chest holds gold, Alden Willow's journal, and the village charter.",
+      "\"The true treasure is not the gold beneath the ground. It is the people, memories, and stories that make Willowmere a home.\"",
+      "You have uncovered Willowmere's story. The Village Treasure is yours to remember."
+    ]
+  }
+}

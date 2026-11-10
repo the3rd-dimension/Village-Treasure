@@ -1,0 +1,137 @@
+{
+  "start_location": "L01",
+  "locations": [
+    {
+      "id": "L01",
+      "name": "Forest Entrance",
+      "description": "A quiet woodland trail leads toward Willowmere.",
+      "background": "backgrounds/L01_forest_entrance.png",
+      "background_image": "backgrounds/L01_forest_entrance.png",
+      "music": "audio/music/forest.ogg",
+      "connections": {"E": "L02"},
+      "npcs": [],
+      "objects": []
+    },
+    {
+      "id": "L02",
+      "name": "Forest Path",
+      "description": "An old crossroads links the forest to the village.",
+      "background": "backgrounds/L02_forest_path.png",
+      "music": "audio/music/forest.ogg",
+      "connections": {"W": "L01", "N": "L03", "S": "L04", "E": "L05"},
+      "npcs": [],
+      "objects": []
+    },
+    {
+      "id": "L03",
+      "name": "Old Well",
+      "description": "A stone well sits beneath the trees.",
+      "background": "backgrounds/L03_old_well.png",
+      "music": "audio/music/forest.ogg",
+      "connections": {"S": "L02", "E": "L11"},
+      "npcs": [],
+      "objects": ["well_mechanism"]
+    },
+    {
+      "id": "L04",
+      "name": "Abandoned House",
+      "description": "Dusty keepsakes remain in the quiet cottage.",
+      "background": "backgrounds/L04_abandoned_house.png",
+      "music": "audio/music/forest.ogg",
+      "connections": {"N": "L02"},
+      "npcs": [],
+      "objects": ["old_rope", "old_photograph"]
+    },
+    {
+      "id": "L05",
+      "name": "Village Square",
+      "description": "The village noticeboard stands in the heart of Willowmere.",
+      "background": "backgrounds/L05_village_square.png",
+      "music": "audio/music/village.ogg",
+      "connections": {"W": "L02", "N": "L07", "S": "L08", "E": "L06"},
+      "npcs": ["mira"],
+      "objects": ["noticeboard"]
+    },
+    {
+      "id": "L06",
+      "name": "Village Market",
+      "description": "Elias tends his small market stall.",
+      "background": "backgrounds/L06_village_market.png",
+      "music": "audio/music/village.ogg",
+      "connections": {"W": "L05", "S": "L09"},
+      "npcs": ["elias"],
+      "objects": ["merchant_stall"]
+    },
+    {
+      "id": "L07",
+      "name": "Old Church",
+      "description": "Faded sunlight falls across the old stone altar.",
+      "background": "backgrounds/L07_old_church.png",
+      "music": "audio/music/village.ogg",
+      "connections": {"S": "L05", "E": "L12"},
+      "npcs": [],
+      "objects": ["altar"]
+    },
+    {
+      "id": "L08",
+      "name": "Town Hall",
+      "description": "Village records and Alden's portrait are kept here.",
+      "background": "backgrounds/L08_town_hall.png",
+      "music": "audio/music/village.ogg",
+      "connections": {"N": "L05", "E": "L09"},
+      "npcs": [],
+      "objects": ["founder_portrait", "historical_records"]
+    },
+    {
+      "id": "L09",
+      "name": "Riverside Dock",
+      "description": "A weathered dock follows the river toward the mill.",
+      "background": "backgrounds/L09_riverside_dock.png",
+      "music": "audio/music/riverside.ogg",
+      "connections": {"N": "L06", "W": "L08", "S": "L10"},
+      "npcs": [],
+      "objects": ["river"]
+    },
+    {
+      "id": "L10",
+      "name": "Old Mill",
+      "description": "The mill wheel is still, but the main room is open.",
+      "background": "backgrounds/L10_old_mill.png",
+      "music": "audio/music/riverside.ogg",
+      "connections": {"N": "L09", "W": "L11"},
+      "npcs": ["thomas"],
+      "objects": ["storage_door"]
+    },
+    {
+      "id": "L11",
+      "name": "Hill Shrine",
+      "description": "An old inscription is carved into the hillside shrine.",
+      "background": "backgrounds/L11_hill_shrine.png",
+      "music": "audio/music/forest.ogg",
+      "connections": {"E": "L10", "W": "L03"},
+      "npcs": [],
+      "objects": ["shrine_inscription"]
+    },
+    {
+      "id": "L12",
+      "name": "Treasure Gate",
+      "description": "A sealed stone gate bears the symbol of the sun.",
+      "background": "backgrounds/L12_treasure_gate.png",
+      "music": "audio/music/village.ogg",
+      "gate_id": "treasure_gate",
+      "connections": {"W": "L07", "S": "L13"},
+      "npcs": ["bram"],
+      "objects": ["treasure_gate"]
+    },
+    {
+      "id": "L13",
+      "name": "Treasure Chamber",
+      "description": "A quiet chamber holds a chest left by Alden Willow.",
+      "background": "backgrounds/L13_treasure_chamber.png",
+      "music": "audio/music/treasure_chamber.ogg",
+      "connections": {"N": "L12"},
+      "npcs": [],
+      "objects": ["treasure_chest"]
+    }
+  ]
+}

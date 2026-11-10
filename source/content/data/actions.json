@@ -1,0 +1,32 @@
+{
+  "L04": [
+    {"id": "pickup:old_rope", "label": "Pick up Old Rope", "condition": "not_collected:old_rope"},
+    {"id": "pickup:old_photograph", "label": "Pick up Old Photograph", "condition": "not_collected:old_photograph"}
+  ],
+  "L05": [
+    {"id": "examine:noticeboard", "label": "Examine Noticeboard"}
+  ],
+  "L10": [
+    {
+      "id": "pickup:old_coin",
+      "label": "Take Old Coin",
+      "condition": "in_storage_and_not_collected:old_coin"
+    },
+    {
+      "id": "leave_storage",
+      "label": "Leave storage room",
+      "condition": "in_storage"
+    },
+    {
+      "id": "enter_storage",
+      "label": "Enter storage room",
+      "condition": "unlocked_and_not_in_storage"
+    }
+  ],
+  "L11": [
+    {"id": "read:shrine", "label": "Read Shrine Inscription", "condition": "not_discovered:shrine"}
+  ],
+  "L13": [
+    {"id": "open:chest", "label": "Open Treasure Chest", "condition": "not_completed"}
+  ]
+}

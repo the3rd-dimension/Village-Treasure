@@ -1,0 +1,26 @@
+{
+  "mira": {
+    "name": "Mira",
+    "role": "Village Caretaker",
+    "sprite": "sprites/npcs/mira.png",
+    "color": [180, 119, 170]
+  },
+  "elias": {
+    "name": "Elias",
+    "role": "Merchant",
+    "sprite": "sprites/npcs/elias.png",
+    "color": [191, 148, 87]
+  },
+  "thomas": {
+    "name": "Thomas",
+    "role": "Old Miller",
+    "sprite": "sprites/npcs/thomas.png",
+    "color": [113, 158, 111]
+  },
+  "bram": {
+    "name": "Bram",
+    "role": "Gatekeeper",
+    "sprite": "sprites/npcs/bram.png",
+    "color": [113, 136, 176]
+  }
+}
